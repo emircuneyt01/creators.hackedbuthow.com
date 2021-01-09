@@ -1,0 +1,13 @@
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+$.getJSON('https://api.twitch.tv/kraken/streams/faker', function(channel) {
+
+    if (channel["stream"] == null) { 
+        window.alert("nie wow");
+
+    } else {
+        window.alert("online");
+    
+    }
+});
+</script>
